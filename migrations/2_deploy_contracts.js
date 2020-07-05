@@ -14,6 +14,7 @@ module.exports = async function (deployer, network) {
             case "ropsten-fork":
                 lendingPoolAddressesProviderAddress = "0x1c8756FD2B28e9426CDBDcC7E3c4d64fa9A54728"; break
             case "kovan":
+                lendingPoolAddressesProviderAddress = "0x506B0B2CF20FAA8f38a4E2B524EE43e1f4458Cc5"; break
             case "kovan-fork":
                 lendingPoolAddressesProviderAddress = "0x506B0B2CF20FAA8f38a4E2B524EE43e1f4458Cc5"; break
             default:
